@@ -1,0 +1,30 @@
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+test-results/
+*.tsbuildinfo
+*.log
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+secrets/
+credentials/
+.npmrc
+
+# Local hosting and editor state
+.openai/
+.sites-runtime/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
